@@ -25,10 +25,17 @@ python phi.py {args}
 ```
 use the following args:
 ```
---model {phi-2,phi-3.5}
---prompt {zero_shots,few_shots} [{zero_shots,few_shots} ...]
+--model             Choose between model variants: "phi-2" for the smaller, lightweight model or "phi-3.5" for the slightly larger, more competitive model. Default is "phi-3.5".
+--prompt            Specify the type of prompting method: "zero_shots" for no examples or "few_shots" for examples in the prompt. Default is "few_shots".
+--prompt-version    Choose the prompt version: "basic" for simple prompts or "comprehensive" for more detailed ones. Default is "comprehensive".
+--output-dir        Specify the directory where the results will be saved. Default is "results/".
+--run-all           Use all choices for model, prompt, and prompt-version```
 ```
-To finetune, specify `--finetune` if you want to finetune the model before generating responses with it.
+Note that you can choose several model, prompts and prompt versions, for example
+`python phi.py --model phi-2 phi-3.5 --prompt zero_shots few_shots`
+To run all the configurations possible, use the `--run-all` flag:
+`python phi.py --run-all`
+
 
 results are automatically stored in the results folder
 
@@ -42,4 +49,3 @@ python tweet_eval.py
 
 ## TODO before submitting
 - remove the cache variable
-- change the name of the results folder to previosulay generated results or somehting like that any repro won't remove the folders

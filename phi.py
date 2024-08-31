@@ -5,16 +5,14 @@ os.environ['HF_HOME'] = '/cs/labs/adiyoss/yuvalringel/cache/'
 
 import pandas as pd
 from datasets import Dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments
-from trl import SFTTrainer, DataCollatorForCompletionOnlyLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 from tqdm import tqdm
 import json
 import argparse
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
-from visualization import extract_embeddings, visualize_embeddings
-from prompts import create_prompt, create_exercise_sample_prompt
+from prompts import create_prompt
 import json
 
 LABEL_TO_CLASS = {
@@ -59,7 +57,7 @@ def get_model_and_tokenizer(model_name):
         trust_remote_code=True, 
         )
 
-    return model, tokenizer
+    return model.cuda(), tokenizer
 
 
 def generate_results(args, model, tokenizer, dataset):
@@ -68,7 +66,7 @@ def generate_results(args, model, tokenizer, dataset):
     responses_failed_to_process = []
     for i in tqdm(range(dataset.num_rows)):
         # create prompt
-        prompt = create_prompt(args.prompt, dataset[i]['Text'])
+        prompt = create_prompt(args.prompt, args.prompt_version, dataset[i]['Text'])
 
         # encode
         inputs = {k: v.cuda() for k, v in tokenizer(prompt, return_tensors="pt", return_attention_mask=False).items()}
@@ -127,7 +125,7 @@ def extract_class_from_response(response):
     
     # if more than one class is mentioned in the response, return the response as is
     if sum([pro_israeli, pro_palestinian, neutral]) > 1:
-        return response, failed_to_process
+        return 'Neutral', failed_to_process
     
     # if no class found, return Neutral
     if sum([pro_israeli, pro_palestinian, neutral]) == 0:
@@ -152,130 +150,50 @@ def compute_metrics_for_json(labels, preds):
         'f1': f1,
     }
 
-def compute_metrics(pred):
-    labels = pred.label_ids
-    preds = pred.predictions.argmax(-1)
-    accuracy = accuracy_score(labels, preds)
-    
-    precision, recall, f1, _ = precision_recall_fscore_support(
-        labels, preds, average='weighted', zero_division=0
-    )
-    
-    return {
-        'accuracy': accuracy,
-        'precision': precision,
-        'recall': recall,
-        'f1': f1,
-    }
-
-
-def finetune_model(model, tokenizer, train_dataset, test_dataset):
-    def get_dataset_for_finetuning(dataset):
-        dataset_prompts = [create_exercise_sample_prompt(dataset[i]['Text'], label_to_class(dataset[i]['Label'])) for i in range(len(dataset))]
-        encodings = tokenizer(dataset_prompts, truncation=True)
-        encodings.data['labels'] = [input_ids[1:] + input_ids[:1] for input_ids in encodings['input_ids']] 
-        return Dataset.from_dict(encodings)
-    
-    train_dataset = get_dataset_for_finetuning(train_dataset)
-    test_dataset = get_dataset_for_finetuning(test_dataset)
-
-    response_template = " ## Output:\nThis statement is "
-    collator = DataCollatorForCompletionOnlyLM(response_template, tokenizer=tokenizer)
-
-    training_args = TrainingArguments(
-        output_dir='./results',
-        num_train_epochs=1,
-        per_device_train_batch_size=1,
-        per_device_eval_batch_size=1,
-        warmup_steps=5,
-        weight_decay=0.01,
-        learning_rate=0.0001,
-        logging_dir='./logs',
-        logging_steps=10, 
-        eval_strategy="epoch", 
-        save_strategy="epoch",
-    )
-    def formatting_prompts_func(example):
-        return example
-
-    trainer = SFTTrainer(
-        model=model,
-        args=training_args,
-        train_dataset=train_dataset,
-        eval_dataset=test_dataset,
-        compute_metrics=compute_metrics,
-        formatting_func=formatting_prompts_func,
-        data_collator=collator
-    )
-
-    # # Perform an evaluation before training
-    # print("Evaluating before training...")
-    # pre_train_eval = trainer.evaluate()
-    # print("Pre-training evaluation:", pre_train_eval)
-
-    # # Analyze the model's embeddings before fine-tuning
-    # texts = [train_dataset[i]['Text'] for i in range(len(train_dataset))]
-    # labels = [train_dataset[i]['Label'] for i in range(len(train_dataset))]
-    
-    # print("Extracting embeddings before fine-tuning...")
-    # embeddings = extract_embeddings(texts, model, tokenizer)
-    # visualize_embeddings(embeddings, labels, "Embeddings before fine-tuning")
-    
-    print("Fine-tuning the model...")
-    trainer.train()
-
-    # print("Evaluating after training...")
-    # post_train_eval = trainer.evaluate()
-    # print("Post-training evaluation:", post_train_eval)
-
-    # print("Extracting embeddings after fine-tuning...")
-    # embeddings_after = extract_embeddings(texts, model, tokenizer)
-    # visualize_embeddings(embeddings_after, labels, "Embeddings After Fine-Tuning")
-    
-    finetuned_model = trainer.model
-    finetuned_model.eval()
-    finetuned_model.save_pretrained(f"./results/finetuned_{args.model}")
-    return finetuned_model
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model', type=str, choices=['phi-2', 'phi-3.5'])
-    parser.add_argument('--prompt', type=str, nargs='+', choices=['zero_shots', 'few_shots'])
-    parser.add_argument('--results-dir', type=str, default='results/')
-    parser.add_argument('--finetune', action='store_true')
+    parser.add_argument('--model', type=str, nargs='+', choices=['phi-2', 'phi-3.5'], default='phi-3.5', help='Choose between model variants: "phi-2" for the smaller, lightweight model or "phi-3.5" for the slightly larger, more competitive model. Default is "phi-3.5".')
+    parser.add_argument('--prompt', type=str, nargs='+', choices=['zero_shots', 'few_shots'], default='few_shots', help='Specify the type of prompting method: "zero_shots" for no examples or "few_shots" for examples in the prompt. Default is "few_shots".')
+    parser.add_argument('--prompt-version', type=str, nargs='+', choices=['basic', 'comprehensive'], default='comprehensive', help='Choose the prompt version: "basic" for simple prompts or "comprehensive" for more detailed ones. Default is "comprehensive".')
+    parser.add_argument('--output-dir', type=str, default='results/', help='Specify the directory where the results will be saved. Default is "results/".')
+    parser.add_argument('--run-all', action='store_true', help='Use all choices for model, prompt, and prompt-version')
     args = parser.parse_args()
 
-    partial_path = f"{args.model}_{args.finetune}" if args.finetune else args.model
-    args.results_dir = os.path.join(args.results_dir, partial_path)
+
+    if args.run_all:
+        print("--run-all was passed. Overwriting the rest of the argumetns adn running all combinations.")
+        args.model = ['phi-2', 'phi-3.5']
+        args.prompt = ['zero_shots', 'few_shots']
+        args.prompt_version = ['basic', 'comprehensive']
+
 
     print(args)
 
-    # load model and tokenizer
-    model, tokenizer = get_model_and_tokenizer(args.model)
-
     file_path = 'data/hate_speech_data.xlsx'
     df = pd.read_excel(file_path)
-
     dataset = Dataset.from_pandas(df)
-    train_size = int(0.5 * len(dataset))
-    test_size = len(dataset) - train_size
-    train_dataset, test_dataset = torch.utils.data.random_split(dataset, [train_size, test_size])
 
-    if args.finetune:
-        model = finetune_model(model, tokenizer, train_dataset, test_dataset)
+    models = args.model if isinstance(args.model, list) else [args.model]
+    prompts = args.prompt if isinstance(args.prompt, list) else [args.prompt]
+    versions = args.prompt_version if isinstance(args.prompt_version, list) else [args.prompt_version]
 
-    prompts = args.prompt
-    for prompt in prompts:
-        args.prompt = prompt
-        args.results_file = os.path.join(args.results_dir, f"{args.prompt}.json")
-        args.scores_file = os.path.join(args.results_dir, f"{args.prompt}_scores.json")
-        
-        print(f"Evaluating {args.model} model with {args.prompt} prompts")
+    for model in models:
+        args.model = model
+        model, tokenizer = get_model_and_tokenizer(args.model)
+        for prompt in prompts:
+            for version in versions:
+                args.prompt = prompt
+                args.prompt_version = version
 
-        generate_results(args, model, tokenizer, test_dataset)
-        evaluate_results(args)
+                print(f"Evaluating {args.model} model with {args.prompt} prompts (Version: {args.prompt_version})...")
 
+                args.results_dir = os.path.join(args.output_dir, f"{args.model}_{args.prompt_version}")
 
-# Example:
-# python phi.py --model phi-2 --prompt zero_shots few_shots --finetune
+                args.results_file = os.path.join(args.results_dir, f"{args.prompt}.json")
+                args.scores_file = os.path.join(args.results_dir, f"{args.prompt}_scores.json")
+                
+                generate_results(args, model, tokenizer, dataset)
+                evaluate_results(args)
+
+# python phi.py --model phi-2 --prompt zero_shots few_shots
+# python phi.py --run-all
