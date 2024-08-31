@@ -1,0 +1,1002 @@
+[
+    {
+        "row": 0,
+        "text": "You are a kind human who has bravely stood up for our rights in Gaza and all of Palestine. I wish you great success always. with love, from Gaza \ud83c\uddf5\ud83c\uddf8",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nYou are a kind human who has bravely stood up for our rights in Gaza and all of Palestine. I wish you great success always. with love, from Gaza \ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nYou are a kind human who has bravely stood up for our rights in Gaza and all of Palestine. I wish you great success always. with love, from Gaza \ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is  Pro-Palestinian. It expresses",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 1,
+        "text": "Dear Bella Hadid, Please disassociate yourself with BDS brands like YSL, Dior and Chanel. These companies are complicit in murder of your people",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nDear Bella Hadid, Please disassociate yourself with BDS brands like YSL, Dior and Chanel. These companies are complicit in murder of your people\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nDear Bella Hadid, Please disassociate yourself with BDS brands like YSL, Dior and Chanel. These companies are complicit in murder of your people\n## Output:\nThis statement is  Pro-Israeli. It is urging",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 2,
+        "text": "Aren't YSL complicits and they're contributing to the murder of Palestinians?",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAren't YSL complicits and they're contributing to the murder of Palestinians?\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAren't YSL complicits and they're contributing to the murder of Palestinians?\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 3,
+        "text": "?? What about boycotting??? Seriously",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n?? What about boycotting??? Seriously\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n?? What about boycotting??? Seriously\n## Output:\nThis statement is  Pro-Palestinian. The speaker is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 4,
+        "text": "The Islamic Republic of Iran, by inciting Hamas, killed people in Gaza.",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe Islamic Republic of Iran, by inciting Hamas, killed people in Gaza.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe Islamic Republic of Iran, by inciting Hamas, killed people in Gaza.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 5,
+        "text": "Beautiful humans support Palestine.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nBeautiful humans support Palestine.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nBeautiful humans support Palestine.\n## Output:\nThis statement is  Pro-Palestinian.\n\n<|endoftext|>",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 6,
+        "text": "From the river to the sea Palestine will be free \ud83c\uddf5\ud83c\uddf8\ud83d\ude4f\ud83c\udffb",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFrom the river to the sea Palestine will be free \ud83c\uddf5\ud83c\uddf8\ud83d\ude4f\ud83c\udffb\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFrom the river to the sea Palestine will be free \ud83c\uddf5\ud83c\uddf8\ud83d\ude4f\ud83c\udffb\n## Output:\nThis statement is \ud83c\uddf5\ud83c\uddf8 (Pal",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 7,
+        "text": "From the river to the sea Palestine should be free \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\u2764\ufe0f\u2764\ufe0f",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFrom the river to the sea Palestine should be free \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\u2764\ufe0f\u2764\ufe0f\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFrom the river to the sea Palestine should be free \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\u2764\ufe0f\u2764\ufe0f\n## Output:\nThis statement is \ud83c\uddf5\ud83c\uddf8 (Pro",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 8,
+        "text": "All eyes on Rafah \ud83d\udcaa",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAll eyes on Rafah \ud83d\udcaa\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAll eyes on Rafah \ud83d\udcaa\n## Output:\nThis statement is  Pro-Palestinian. The mention of",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 9,
+        "text": "Free palestine\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8 forever even though trials keep coming my way",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree palestine\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8 forever even though trials keep coming my way\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree palestine\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8 forever even though trials keep coming my way\n## Output:\nThis statement is  Pro-Palestinian. The user is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 10,
+        "text": "From the river to the sea Palestine will be FREE INCHALAH \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFrom the river to the sea Palestine will be FREE INCHALAH \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFrom the river to the sea Palestine will be FREE INCHALAH \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is \ud83c\uddf5\ud83c\uddf8 (Pal",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 11,
+        "text": "Meanwhile Israeli hostages that were released have spoken about how Palestinians baked birthday cakes for them.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nMeanwhile Israeli hostages that were released have spoken about how Palestinians baked birthday cakes for them.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nMeanwhile Israeli hostages that were released have spoken about how Palestinians baked birthday cakes for them.\n## Output:\nThis statement is  Pro-Palestinian. It highlights",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 12,
+        "text": "@justmadiha where did you get your information from? Hamas?",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@justmadiha where did you get your information from? Hamas?\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@justmadiha where did you get your information from? Hamas?\n## Output:\nThis statement is  Pro-Palestinian. The user is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 13,
+        "text": "What's happening in Palestine is so unfair",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhat's happening in Palestine is so unfair\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhat's happening in Palestine is so unfair\n## Output:\nThis statement is  Pro-Palestinian. It expresses",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 14,
+        "text": "Is Hamas producing these clips for CNN?",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIs Hamas producing these clips for CNN?\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIs Hamas producing these clips for CNN?\n## Output:\nThis statement is  Neutral. It does not express a Pro",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 15,
+        "text": "This is soo inhuman",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis is soo inhuman\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis is soo inhuman\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 16,
+        "text": "Don\u2019t let Israel gaslight you into thinking this began on October 7th..",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nDon\u2019t let Israel gaslight you into thinking this began on October 7th..\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nDon\u2019t let Israel gaslight you into thinking this began on October 7th..\n## Output:\nThis statement is  Pro-Palestinian. The speaker is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 17,
+        "text": "Israel helped Gaza 2005!!! Your lies are no longer relevant...after 7.10 we just started to show you what Israel is!!!!",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIsrael helped Gaza 2005!!! Your lies are no longer relevant...after 7.10 we just started to show you what Israel is!!!!\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIsrael helped Gaza 2005!!! Your lies are no longer relevant...after 7.10 we just started to show you what Israel is!!!!\n## Output:\nThis statement is  Pro-Israeli. The speaker is def",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 18,
+        "text": "@kotayba_musleh I agree it became when the arabs came and tried to conquer a land they had no right too",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@kotayba_musleh I agree it became when the arabs came and tried to conquer a land they had no right too\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@kotayba_musleh I agree it became when the arabs came and tried to conquer a land they had no right too\n## Output:\nThis statement is  Pro-Israeli. The speaker is express",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 19,
+        "text": "@kotayba_musleh you're right... Gaza leadership has been launching rockets at Israeli civilians for decades by the thousands.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@kotayba_musleh you're right... Gaza leadership has been launching rockets at Israeli civilians for decades by the thousands.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@kotayba_musleh you're right... Gaza leadership has been launching rockets at Israeli civilians for decades by the thousands.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 20,
+        "text": "\ud83d\udc94\ud83c\uddf5\ud83c\uddf8 Israel investigating itself again \ud83d\ude44",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n\ud83d\udc94\ud83c\uddf5\ud83c\uddf8 Israel investigating itself again \ud83d\ude44\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n\ud83d\udc94\ud83c\uddf5\ud83c\uddf8 Israel investigating itself again \ud83d\ude44\n## Output:\nThis statement is \ud83d\udc94 Pro-Palestinian",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 21,
+        "text": "And the hostages, how are they doing???",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAnd the hostages, how are they doing???\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAnd the hostages, how are they doing???\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 22,
+        "text": "Where are the Hostages?????",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhere are the Hostages?????\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhere are the Hostages?????\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 23,
+        "text": "How about the israel \ud83c\uddee\ud83c\uddf1 hostages??",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHow about the israel \ud83c\uddee\ud83c\uddf1 hostages??\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHow about the israel \ud83c\uddee\ud83c\uddf1 hostages??\n## Output:\nThis statement is  Pro-Israeli. The user is express",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 24,
+        "text": "Compare this to how Hamas has treated hostages",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCompare this to how Hamas has treated hostages\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCompare this to how Hamas has treated hostages\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 25,
+        "text": "The most moral army in the world'.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe most moral army in the world'.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe most moral army in the world'.\n## Output:\nThis statement is  neutral and does not specifically favor either Pro-Is",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 26,
+        "text": "Kidnapping civilians and torturing them while being detained is called a war crime",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nKidnapping civilians and torturing them while being detained is called a war crime\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nKidnapping civilians and torturing them while being detained is called a war crime\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 27,
+        "text": "And Israel dare to call themselves the most moral army in the world \ud83d\ude12",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAnd Israel dare to call themselves the most moral army in the world \ud83d\ude12\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAnd Israel dare to call themselves the most moral army in the world \ud83d\ude12\n## Output:\nThis statement is  Pro-Israeli. It praises Israel",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 28,
+        "text": "All our prayers are with you \ud83c\uddf5\ud83c\uddf8\ud83d\udc94",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAll our prayers are with you \ud83c\uddf5\ud83c\uddf8\ud83d\udc94\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAll our prayers are with you \ud83c\uddf5\ud83c\uddf8\ud83d\udc94\n## Output:\nThis statement is \ud83d\udc94, which can be interpreted as",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 29,
+        "text": "This thing is so messed up. Future generations will read of this and wonder why the rest of the world looked on while these atrocities were happening.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis thing is so messed up. Future generations will read of this and wonder why the rest of the world looked on while these atrocities were happening.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis thing is so messed up. Future generations will read of this and wonder why the rest of the world looked on while these atrocities were happening.\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 30,
+        "text": "@olajideideas thanks for being their voice \u2764\ufe0f#stopkillingtheinnocent",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@olajideideas thanks for being their voice \u2764\ufe0f#stopkillingtheinnocent\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@olajideideas thanks for being their voice \u2764\ufe0f#stopkillingtheinnocent\n## Output:\nThis statement is  Pro-Palestinian. The user is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 31,
+        "text": "@olajideideas nah. They\u2019ll read about October 7th\ud83d\ude09\ud83d\udc4d",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@olajideideas nah. They\u2019ll read about October 7th\ud83d\ude09\ud83d\udc4d\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@olajideideas nah. They\u2019ll read about October 7th\ud83d\ude09\ud83d\udc4d\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 32,
+        "text": "The way the kids looks seeing their adults going through this is heart breaking. They dehumanized them to the core \ud83d\ude22",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe way the kids looks seeing their adults going through this is heart breaking. They dehumanized them to the core \ud83d\ude22\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe way the kids looks seeing their adults going through this is heart breaking. They dehumanized them to the core \ud83d\ude22\n## Output:\nThis statement is  Pro-Palestinian. It expresses",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 33,
+        "text": "Didn't Palestine elect Hamas into their government in 2006?",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nDidn't Palestine elect Hamas into their government in 2006?\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nDidn't Palestine elect Hamas into their government in 2006?\n## Output:\nThis statement is  Pro-Palestinian. It refers to",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 34,
+        "text": "These dudes were openly calling for Genocide and now they\u2019re mad they\u2019re invited to take part in it. Nothing satisfies \ud83d\ude22",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThese dudes were openly calling for Genocide and now they\u2019re mad they\u2019re invited to take part in it. Nothing satisfies \ud83d\ude22\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThese dudes were openly calling for Genocide and now they\u2019re mad they\u2019re invited to take part in it. Nothing satisfies \ud83d\ude22\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 35,
+        "text": "Free Palestine \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree Palestine \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree Palestine \ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\ud83c\udf49\ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is \ud83c\uddf5\ud83c\uddf8, which",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 36,
+        "text": "Why aren\u2019t you posting anything about the civilians who are being slaughtered in Gaza",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhy aren\u2019t you posting anything about the civilians who are being slaughtered in Gaza\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhy aren\u2019t you posting anything about the civilians who are being slaughtered in Gaza\n## Output:\nThis statement is  Pro-Palestinian. It expresses",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 37,
+        "text": "Indians always stands with our Jewish brothers and sisters....",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIndians always stands with our Jewish brothers and sisters....\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIndians always stands with our Jewish brothers and sisters....\n## Output:\nThis statement is  Pro-Israeli. It shows support for",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 38,
+        "text": "They can try as hard as they like but Zionism is not Judaism. Period.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThey can try as hard as they like but Zionism is not Judaism. Period.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThey can try as hard as they like but Zionism is not Judaism. Period.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 39,
+        "text": "The only democracy in the The East lol",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe only democracy in the The East lol\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe only democracy in the The East lol\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 40,
+        "text": "Israel. Is the only existing apartheid on this earth.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIsrael. Is the only existing apartheid on this earth.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIsrael. Is the only existing apartheid on this earth.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 41,
+        "text": "Only democracy in the middle east they say... \ud83e\udd14",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nOnly democracy in the middle east they say... \ud83e\udd14\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nOnly democracy in the middle east they say... \ud83e\udd14\n## Output:\nThis statement is  neutral. It does not explicitly support either the Isra",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 42,
+        "text": "So real jews would need to fight with zionists?",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nSo real jews would need to fight with zionists?\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nSo real jews would need to fight with zionists?\n## Output:\nThis statement is  Pro-Palestinian. It implies a",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 43,
+        "text": "Can't wait to see them eat each others \ud83d\ude02\ud83d\ude02..\ud83d\ude02\ud83d\udd3b\ud83d\udd3b\ud83d\udd3b",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCan't wait to see them eat each others \ud83d\ude02\ud83d\ude02..\ud83d\ude02\ud83d\udd3b\ud83d\udd3b\ud83d\udd3b\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCan't wait to see them eat each others \ud83d\ude02\ud83d\ude02..\ud83d\ude02\ud83d\udd3b\ud83d\udd3b\ud83d\udd3b\n## Output:\nThis statement is \ud83d\udd34 (Pro-Palestin",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 44,
+        "text": "I STAND WITH ISRAEL FOREVER \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI STAND WITH ISRAEL FOREVER \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI STAND WITH ISRAEL FOREVER \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\n## Output:\nThis statement is \ud83c\uddee\ud83c\uddf1 (Pro",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 45,
+        "text": "The curse of children and women in Gaza follows you to the grave, 75 years of occupation\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe curse of children and women in Gaza follows you to the grave, 75 years of occupation\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe curse of children and women in Gaza follows you to the grave, 75 years of occupation\ud83d\ude2e\ud83d\ude2e\ud83d\ude2e\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 46,
+        "text": "Ridiculous, Everyone has right to live peacefully. Destroy Netanyahu and regain the Peace in middle east.",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nRidiculous, Everyone has right to live peacefully. Destroy Netanyahu and regain the Peace in middle east.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nRidiculous, Everyone has right to live peacefully. Destroy Netanyahu and regain the Peace in middle east.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 47,
+        "text": "I Love how the world is obsessed with internal Israeli politics \ud83d\ude02 While in Syria, Yamen, Iran civilization woke up to another oppressive regime, Israel \ud83c\uddee\ud83c\uddf1 is the only democracy that shines light in the dark middle east",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI Love how the world is obsessed with internal Israeli politics \ud83d\ude02 While in Syria, Yamen, Iran civilization woke up to another oppressive regime, Israel \ud83c\uddee\ud83c\uddf1 is the only democracy that shines light in the dark middle east\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI Love how the world is obsessed with internal Israeli politics \ud83d\ude02 While in Syria, Yamen, Iran civilization woke up to another oppressive regime, Israel \ud83c\uddee\ud83c\uddf1 is the only democracy that shines light in the dark middle east\n## Output:\nThis statement is  Pro-Israeli. The speaker is pra",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 48,
+        "text": "Most documented genocide ever",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nMost documented genocide ever\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nMost documented genocide ever\n## Output:\nThis statement is  neutral and does not explicitly support either the Pro-",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 49,
+        "text": "Under Hamas control - of course at risk ..",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nUnder Hamas control - of course at risk ..\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nUnder Hamas control - of course at risk ..\n## Output:\nThis statement is  Pro-Palestinian. It refers to",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 50,
+        "text": "This is a genocide!!!!",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis is a genocide!!!!\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis is a genocide!!!!\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 51,
+        "text": "The occupation killed our childhood and our memories. We did not even live our youth. All our days were between wars. There was never a beautiful day in our lives. I lost my friends. I had many dreams, but the occupation stole everything. Each of us has a name and a dream. Do not forget us. We are not numbers.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe occupation killed our childhood and our memories. We did not even live our youth. All our days were between wars. There was never a beautiful day in our lives. I lost my friends. I had many dreams, but the occupation stole everything. Each of us has a name and a dream. Do not forget us. We are not numbers.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe occupation killed our childhood and our memories. We did not even live our youth. All our days were between wars. There was never a beautiful day in our lives. I lost my friends. I had many dreams, but the occupation stole everything. Each of us has a name and a dream. Do not forget us. We are not numbers.\n## Output:\nThis statement is  Pro-Palestinian. It speaks",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 52,
+        "text": "CNN didn\u2019t get the videos from the main markets full in gaza full with food? \ud83e\uddd0",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCNN didn\u2019t get the videos from the main markets full in gaza full with food? \ud83e\uddd0\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCNN didn\u2019t get the videos from the main markets full in gaza full with food? \ud83e\uddd0\n## Output:\nThis statement is  Neutral. It does not explicitly support either",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 53,
+        "text": "The UN just posted a study that proves that there is not any hunger in Gaza",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe UN just posted a study that proves that there is not any hunger in Gaza\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThe UN just posted a study that proves that there is not any hunger in Gaza\n## Output:\nThis statement is  Pro-Israeli. It implies that the",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 54,
+        "text": "I can no longer hear about so much horror against Palestinians.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI can no longer hear about so much horror against Palestinians.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI can no longer hear about so much horror against Palestinians.\n## Output:\nThis statement is  Pro-Palestinian. The speaker express",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 55,
+        "text": "So there is no famine ?? I thought for the past several months, everyone has been starving in Gaza. This despite hundreds of aid trucks entering everyday and videos of Gazans posting to social media with tons of food. But @cnn - I get it, journalim is hard for you guys. It\u2019s so easy to dunk their lies. Activism is easier.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nSo there is no famine ?? I thought for the past several months, everyone has been starving in Gaza. This despite hundreds of aid trucks entering everyday and videos of Gazans posting to social media with tons of food. But @cnn - I get it, journalim is hard for you guys. It\u2019s so easy to dunk their lies. Activism is easier.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nSo there is no famine ?? I thought for the past several months, everyone has been starving in Gaza. This despite hundreds of aid trucks entering everyday and videos of Gazans posting to social media with tons of food. But @cnn - I get it, journalim is hard for you guys. It\u2019s so easy to dunk their lies. Activism is easier.\n## Output:\nThis statement is  Pro-Palestinian. The speaker is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 56,
+        "text": "This is what Zionism is",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis is what Zionism is\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nThis is what Zionism is\n## Output:\nThis statement is  Pro-Israeli. Zionism is",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 57,
+        "text": "Praying \ud83d\ude4f\ud83c\udffe for he people of \ud83c\uddf5\ud83c\uddf8",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nPraying \ud83d\ude4f\ud83c\udffe for he people of \ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nPraying \ud83d\ude4f\ud83c\udffe for he people of \ud83c\uddf5\ud83c\uddf8\n## Output:\nThis statement is \ud83d\ude4f\ud83c\udffe (p",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 58,
+        "text": "Stop reporting lies! The UN said there are sufficient evidence that there is more then needed aid crossing in to Gaza if Hamas wouldn\u2019t steal and kill its own people for food then there will be no famine!!!!",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nStop reporting lies! The UN said there are sufficient evidence that there is more then needed aid crossing in to Gaza if Hamas wouldn\u2019t steal and kill its own people for food then there will be no famine!!!!\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nStop reporting lies! The UN said there are sufficient evidence that there is more then needed aid crossing in to Gaza if Hamas wouldn\u2019t steal and kill its own people for food then there will be no famine!!!!\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 59,
+        "text": "Crimes against humanity..Funded by the US.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCrimes against humanity..Funded by the US.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCrimes against humanity..Funded by the US.\n## Output:\nThis statement is  neutral and does not explicitly support either the Pro-",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 60,
+        "text": "Every single day since October 8, you guys have been saying that there was a famine and a hunger crisis. Can you report the actual correct thing? Maybe it\u2019s time to start blaming Hamas for putting the people of Gaza in the situation.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nEvery single day since October 8, you guys have been saying that there was a famine and a hunger crisis. Can you report the actual correct thing? Maybe it\u2019s time to start blaming Hamas for putting the people of Gaza in the situation.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nEvery single day since October 8, you guys have been saying that there was a famine and a hunger crisis. Can you report the actual correct thing? Maybe it\u2019s time to start blaming Hamas for putting the people of Gaza in the situation.\n## Output:\nThis statement is  Pro-Israeli. It suggests blaming",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 61,
+        "text": "Can they just return all the hostages so this can end?",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCan they just return all the hostages so this can end?\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nCan they just return all the hostages so this can end?\n## Output:\nThis statement is  Neutral. It does not explicitly support either",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 62,
+        "text": "And yet markets are up and running in Gaza \ud83d\ude02\ud83d\ude02\ud83d\ude02",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAnd yet markets are up and running in Gaza \ud83d\ude02\ud83d\ude02\ud83d\ude02\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAnd yet markets are up and running in Gaza \ud83d\ude02\ud83d\ude02\ud83d\ude02\n## Output:\nThis statement is  Pro-Palestinian. It implies that",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 63,
+        "text": "Well if HAMAS would stop stealing the aid being sent and then making the people buy it back.. maybe there wouldn\u2019t be a famine. Hamas is responsible for the destruction of Palestine and that is what the pro Palestine protestors have supported.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWell if HAMAS would stop stealing the aid being sent and then making the people buy it back.. maybe there wouldn\u2019t be a famine. Hamas is responsible for the destruction of Palestine and that is what the pro Palestine protestors have supported.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWell if HAMAS would stop stealing the aid being sent and then making the people buy it back.. maybe there wouldn\u2019t be a famine. Hamas is responsible for the destruction of Palestine and that is what the pro Palestine protestors have supported.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 64,
+        "text": "Stop this f**king bs!!!!! Stop spreading false information!! Hamas is stealing the aid. There is more than enough food in Gaza to feed x3 the population.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nStop this f**king bs!!!!! Stop spreading false information!! Hamas is stealing the aid. There is more than enough food in Gaza to feed x3 the population.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nStop this f**king bs!!!!! Stop spreading false information!! Hamas is stealing the aid. There is more than enough food in Gaza to feed x3 the population.\n## Output:\nThis statement is  Pro-Palestinian. The speaker is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 65,
+        "text": "Explain to me how this isn't genocide",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nExplain to me how this isn't genocide\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nExplain to me how this isn't genocide\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 66,
+        "text": "Israel sends in aid daily. Daily!!! There a records of it with the UN. Daily for the last 8 months. Hamas takes the aid and hoards it or sells it. But you refuse to ensure people know this. You want to paint Israel with this evil brush. It\u2019s such irresponsible reporting. And downright dangerous.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIsrael sends in aid daily. Daily!!! There a records of it with the UN. Daily for the last 8 months. Hamas takes the aid and hoards it or sells it. But you refuse to ensure people know this. You want to paint Israel with this evil brush. It\u2019s such irresponsible reporting. And downright dangerous.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIsrael sends in aid daily. Daily!!! There a records of it with the UN. Daily for the last 8 months. Hamas takes the aid and hoards it or sells it. But you refuse to ensure people know this. You want to paint Israel with this evil brush. It\u2019s such irresponsible reporting. And downright dangerous.\n## Output:\nThis statement is  Pro-Israeli. The speaker is def",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 67,
+        "text": "Firstly, it\u2019s not a war. A war is fought between armies with tanks and armaments. Secondly, Israel is an occupier, it has a legal responsibility, under international law, towards the people it occupies.",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFirstly, it\u2019s not a war. A war is fought between armies with tanks and armaments. Secondly, Israel is an occupier, it has a legal responsibility, under international law, towards the people it occupies.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFirstly, it\u2019s not a war. A war is fought between armies with tanks and armaments. Secondly, Israel is an occupier, it has a legal responsibility, under international law, towards the people it occupies.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 68,
+        "text": "Gaza is not occupied, not for many years now",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nGaza is not occupied, not for many years now\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nGaza is not occupied, not for many years now\n## Output:\nThis statement is  Pro-Palestinian. It implies that",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 69,
+        "text": "@colettegiaretta Israel does not occupy Gaza since 2005.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@colettegiaretta Israel does not occupy Gaza since 2005.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@colettegiaretta Israel does not occupy Gaza since 2005.\n## Output:\nThis statement is  Pro-Palestinian. It implies that",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 70,
+        "text": "Finally. It\u2019s ok to say both sides are wrong. The scale at which it\u2019s happening is another topic.",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFinally. It\u2019s ok to say both sides are wrong. The scale at which it\u2019s happening is another topic.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFinally. It\u2019s ok to say both sides are wrong. The scale at which it\u2019s happening is another topic.\n## Output:\nThis statement is  Pro-Palestinian. It acknowledges",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 71,
+        "text": "Yes we know, but only one side is committing genocide",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nYes we know, but only one side is committing genocide\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nYes we know, but only one side is committing genocide\n## Output:\nThis statement is  Pro-Palestinian. It implies that",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 72,
+        "text": "Funny, Israel defending itself isn\u2019t a war crime. Where are the hostages? Or is that not a war crime? The UN is discussing.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFunny, Israel defending itself isn\u2019t a war crime. Where are the hostages? Or is that not a war crime? The UN is discussing.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFunny, Israel defending itself isn\u2019t a war crime. Where are the hostages? Or is that not a war crime? The UN is discussing.\n## Output:\nThis statement is  Pro-Israeli. The speaker is def",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 73,
+        "text": "Am Israel Chai \ud83c\uddee\ud83c\uddf1 your lies can't change it",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAm Israel Chai \ud83c\uddee\ud83c\uddf1 your lies can't change it\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAm Israel Chai \ud83c\uddee\ud83c\uddf1 your lies can't change it\n## Output:\nThis statement is  Pro-Israeli. The phrase \"Am",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 74,
+        "text": "Bad reporting. You only stated the number killed by Hamas. What about the multiple tens of thousands killed by Israel?? Shame on you.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nBad reporting. You only stated the number killed by Hamas. What about the multiple tens of thousands killed by Israel?? Shame on you.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nBad reporting. You only stated the number killed by Hamas. What about the multiple tens of thousands killed by Israel?? Shame on you.\n## Output:\nThis statement is  Pro-Palestinian. The speaker critic",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 75,
+        "text": "It\u2019s not a war. It\u2019s an OCCUPATION vs RESISTANCE. I wish yall would call it what it is. GENOCIDE.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIt\u2019s not a war. It\u2019s an OCCUPATION vs RESISTANCE. I wish yall would call it what it is. GENOCIDE.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIt\u2019s not a war. It\u2019s an OCCUPATION vs RESISTANCE. I wish yall would call it what it is. GENOCIDE.\n## Output:\nThis statement is  Pro-Palestinian. The speaker is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 76,
+        "text": "Ugh some more bullshit \ud83d\ude44 an apartheid was definitely worse as well as genocide. This is childish af, Israels soldiers have happily gathered all the evidence a tribunal would need \ud83d\udc4c\ud83c\udffe they love recording themselves committing war crimes",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nUgh some more bullshit \ud83d\ude44 an apartheid was definitely worse as well as genocide. This is childish af, Israels soldiers have happily gathered all the evidence a tribunal would need \ud83d\udc4c\ud83c\udffe they love recording themselves committing war crimes\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nUgh some more bullshit \ud83d\ude44 an apartheid was definitely worse as well as genocide. This is childish af, Israels soldiers have happily gathered all the evidence a tribunal would need \ud83d\udc4c\ud83c\udffe they love recording themselves committing war crimes\n## Output:\nThis statement is  Pro-Israeli. The speaker is critic",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 77,
+        "text": "But, UN never condemn what Hamas did. It\u2019s not fair.",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nBut, UN never condemn what Hamas did. It\u2019s not fair.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nBut, UN never condemn what Hamas did. It\u2019s not fair.\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 78,
+        "text": "October 7 was a crime. Kidnapping, graping and mutilating women.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nOctober 7 was a crime. Kidnapping, graping and mutilating women.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nOctober 7 was a crime. Kidnapping, graping and mutilating women.\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 79,
+        "text": "What do you call a militant group who kidnaps babies and elderly from their beds? \"Terrorists\"",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhat do you call a militant group who kidnaps babies and elderly from their beds? \"Terrorists\"\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWhat do you call a militant group who kidnaps babies and elderly from their beds? \"Terrorists\"\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 80,
+        "text": "If you are going to comment, get your facts straight first. Get your information from the history books, from credible unbiased sources not from tiktok and other social media sources used for propaganda. You will look like a brainless clown.....",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIf you are going to comment, get your facts straight first. Get your information from the history books, from credible unbiased sources not from tiktok and other social media sources used for propaganda. You will look like a brainless clown.....\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIf you are going to comment, get your facts straight first. Get your information from the history books, from credible unbiased sources not from tiktok and other social media sources used for propaganda. You will look like a brainless clown.....\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 81,
+        "text": "I mean Israel has become a pariah state by committing genocide with impunity for the entire world to see so I\u2019m sure Hamas considers that a strategic win",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI mean Israel has become a pariah state by committing genocide with impunity for the entire world to see so I\u2019m sure Hamas considers that a strategic win\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI mean Israel has become a pariah state by committing genocide with impunity for the entire world to see so I\u2019m sure Hamas considers that a strategic win\n## Output:\nThis statement is  Pro-Palestinian. The speaker is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 82,
+        "text": "No hope for Gaza until Hamas is gone.",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nNo hope for Gaza until Hamas is gone.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nNo hope for Gaza until Hamas is gone.\n## Output:\nThis statement is  Pro-Israeli. It implies that the",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 83,
+        "text": "Free Palestine from Hamas \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree Palestine from Hamas \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree Palestine from Hamas \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\n## Output:\nThis statement is  Pro-Palestinian. It expresses",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 84,
+        "text": "America is run by Israel. What an embarrassment",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAmerica is run by Israel. What an embarrassment\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nAmerica is run by Israel. What an embarrassment\n## Output:\nThis statement is  Pro-Palestinian. The speaker express",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 85,
+        "text": "Free Gaza from Hamas \u270c\ufe0f\ud83c\uddee\ud83c\uddf1\u2764\ufe0f",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree Gaza from Hamas \u270c\ufe0f\ud83c\uddee\ud83c\uddf1\u2764\ufe0f\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nFree Gaza from Hamas \u270c\ufe0f\ud83c\uddee\ud83c\uddf1\u2764\ufe0f\n## Output:\nThis statement is \u270c\ufe0f\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 86,
+        "text": "Wake up WORLD. bring home our hostages. \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\udf97\ufe0f\ud83c\udf97\ufe0f\ud83d\ude4f\ud83c\udffd\ud83d\ude4f\ud83c\udffd",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWake up WORLD. bring home our hostages. \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\udf97\ufe0f\ud83c\udf97\ufe0f\ud83d\ude4f\ud83c\udffd\ud83d\ude4f\ud83c\udffd\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nWake up WORLD. bring home our hostages. \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\udf97\ufe0f\ud83c\udf97\ufe0f\ud83d\ude4f\ud83c\udffd\ud83d\ude4f\ud83c\udffd\n## Output:\nThis statement is \ud83c\uddee\ud83c\uddf1 (re",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 87,
+        "text": "Hamas has got to go \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHamas has got to go \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHamas has got to go \ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\ud83c\uddee\ud83c\uddf1\n## Output:\nThis statement is  Pro-Israeli. The use of the",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 88,
+        "text": "Hmas has put out dozens of statements over 8 months and you\u2019ve NEVER reported them but you report this \u201cleaked statement\u201d?? Sure lol",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHmas has put out dozens of statements over 8 months and you\u2019ve NEVER reported them but you report this \u201cleaked statement\u201d?? Sure lol\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHmas has put out dozens of statements over 8 months and you\u2019ve NEVER reported them but you report this \u201cleaked statement\u201d?? Sure lol\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 89,
+        "text": "\"RESISTANCE IS NOT TERRORISM \" PRESIDENT JIMMY CARTER",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n\"RESISTANCE IS NOT TERRORISM \" PRESIDENT JIMMY CARTER\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n\"RESISTANCE IS NOT TERRORISM \" PRESIDENT JIMMY CARTER\n## Output:\nThis statement is  neither explicitly Pro-Israeli nor Pro-",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 90,
+        "text": "Here is your proof to finally understand who is really protesting for the innocent people \ud83c\udf49",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHere is your proof to finally understand who is really protesting for the innocent people \ud83c\udf49\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nHere is your proof to finally understand who is really protesting for the innocent people \ud83c\udf49\n## Output:\nThis statement is \ud83c\udf49 neutral as it does not explicitly",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 91,
+        "text": "You mean Zionist are attacking peaceful protestors and are not being hold accountable whatsoever because they\u2019re white?",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nYou mean Zionist are attacking peaceful protestors and are not being hold accountable whatsoever because they\u2019re white?\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nYou mean Zionist are attacking peaceful protestors and are not being hold accountable whatsoever because they\u2019re white?\n## Output:\nThis statement is  Pro-Palestinian. It criticizes",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 92,
+        "text": "If only you could label them for what actually are - anti-genocide protests and rightly so! \u270a\ud83c\udffe\u270a\ud83c\udffe\u270a\ud83c\udffe solidarity with them",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIf only you could label them for what actually are - anti-genocide protests and rightly so! \u270a\ud83c\udffe\u270a\ud83c\udffe\u270a\ud83c\udffe solidarity with them\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nIf only you could label them for what actually are - anti-genocide protests and rightly so! \u270a\ud83c\udffe\u270a\ud83c\udffe\u270a\ud83c\udffe solidarity with them\n## Output:\nThis statement is \u270a\ud83c\udffe\u270a",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 93,
+        "text": "if only they knew more of what they were protesting",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nif only they knew more of what they were protesting\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nif only they knew more of what they were protesting\n## Output:\nThis statement is  neutral. It does not explicitly support either the Isra",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 94,
+        "text": "Oh!! But they can confirm that 1200 people were killed in Israel?\nCNN we know you are IDF media..\nShame",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nOh!! But they can confirm that 1200 people were killed in Israel?\nCNN we know you are IDF media..\nShame\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nOh!! But they can confirm that 1200 people were killed in Israel?\nCNN we know you are IDF media..\nShame\n## Output:\nThis statement is  Pro-Palestinian. The speaker is",
+        "predicted_label": -1,
+        "predicted_class": "Pro-Palestinian"
+    },
+    {
+        "row": 95,
+        "text": "Take off the masks and show your faces!!",
+        "label": 0,
+        "class": "Neutral",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nTake off the masks and show your faces!!\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nTake off the masks and show your faces!!\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 96,
+        "text": "*antisemitic protest",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n*antisemitic protest\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n*antisemitic protest\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 97,
+        "text": "I studied 1940s Germany. This is far worse.\n1. Dehumanizing propaganda\n2. Infants (in incubators), hospital patients, and children buried alive\n3. Starvation\n4. The native people's land and infrastructure destroyed\n5. Mass executions/graves\n6. Child and adult r@**\n7. K!!!ing people trying to aid, aid workers, doctors, ambulance drivers, and the press\n8. Lying to authorities about war crimes and ignoring the global community\u2019s pleas to #ceasefire\n9. Looting homes and stores on video\n10. Domestic and wild animals killed\n11. Millions terrorized, traumatized and driven into tents\n12. Elderly, disabled, orphans, and pregnant women beaten and killed\n13. Desecration of religious buildings and the deceased\n14. Attacking nearby countries, unprovoked to create a wider conflict\n15. Vital organs removed\n16. Full documentation of #genocide on video #freepalestine",
+        "label": -1,
+        "class": "Pro-Palestinian",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI studied 1940s Germany. This is far worse.\n1. Dehumanizing propaganda\n2. Infants (in incubators), hospital patients, and children buried alive\n3. Starvation\n4. The native people's land and infrastructure destroyed\n5. Mass executions/graves\n6. Child and adult r@**\n7. K!!!ing people trying to aid, aid workers, doctors, ambulance drivers, and the press\n8. Lying to authorities about war crimes and ignoring the global community\u2019s pleas to #ceasefire\n9. Looting homes and stores on video\n10. Domestic and wild animals killed\n11. Millions terrorized, traumatized and driven into tents\n12. Elderly, disabled, orphans, and pregnant women beaten and killed\n13. Desecration of religious buildings and the deceased\n14. Attacking nearby countries, unprovoked to create a wider conflict\n15. Vital organs removed\n16. Full documentation of #genocide on video #freepalestine\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\nI studied 1940s Germany. This is far worse.\n1. Dehumanizing propaganda\n2. Infants (in incubators), hospital patients, and children buried alive\n3. Starvation\n4. The native people's land and infrastructure destroyed\n5. Mass executions/graves\n6. Child and adult r@**\n7. K!!!ing people trying to aid, aid workers, doctors, ambulance drivers, and the press\n8. Lying to authorities about war crimes and ignoring the global community\u2019s pleas to #ceasefire\n9. Looting homes and stores on video\n10. Domestic and wild animals killed\n11. Millions terrorized, traumatized and driven into tents\n12. Elderly, disabled, orphans, and pregnant women beaten and killed\n13. Desecration of religious buildings and the deceased\n14. Attacking nearby countries, unprovoked to create a wider conflict\n15. Vital organs removed\n16. Full documentation of #genocide on video #freepalestine\n## Output:\nThis statement is 16. It supports the Palestinian perspective",
+        "predicted_label": 0,
+        "predicted_class": "Neutral"
+    },
+    {
+        "row": 98,
+        "text": "@wonispotts stop spreading propaganda!!",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@wonispotts stop spreading propaganda!!\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@wonispotts stop spreading propaganda!!\n## Output:\nThis statement is  neither Pro-Israeli nor Pro-Pal",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    },
+    {
+        "row": 99,
+        "text": "@jackson.petit if it was genocide Isreal would\u2019ve bombed them to extinction by oct 9. More bombs sent then people dead = not genocide. Genocide is the targeted total destruction. Clearly this isn\u2019t that. Again, does not make it right. But we need to start being factual and not emotional if we want this disaster to end.",
+        "label": 1,
+        "class": "Pro-Israeli",
+        "prompt": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@jackson.petit if it was genocide Isreal would\u2019ve bombed them to extinction by oct 9. More bombs sent then people dead = not genocide. Genocide is the targeted total destruction. Clearly this isn\u2019t that. Again, does not make it right. But we need to start being factual and not emotional if we want this disaster to end.\n## Output:\nThis statement is ",
+        "llm_response": "Classify the following sentence as Pro-Israeli or Pro-Palestinian. these are the ONLY 2 options.\n## Statement:\n@jackson.petit if it was genocide Isreal would\u2019ve bombed them to extinction by oct 9. More bombs sent then people dead = not genocide. Genocide is the targeted total destruction. Clearly this isn\u2019t that. Again, does not make it right. But we need to start being factual and not emotional if we want this disaster to end.\n## Output:\nThis statement is  Pro-Israeli. The user is arg",
+        "predicted_label": 1,
+        "predicted_class": "Pro-Israeli"
+    }
+]
